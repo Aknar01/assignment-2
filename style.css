@@ -1,9 +1,11 @@
 body {
     background-image: url('bg_student21.jpg'); /*phon*/
-    background-size: cover; /*размер фона*/
+    background-size: 1440px; /*размер фона*/
     background-repeat: no-repeat; /*повторность фона*/
     background-color: rgb(255, 255, 255);/*цвет заднего плана*/
+    
 }
+
 .container{
     width: 1000%; /*ширина*/
     max-width: 1200px; /*максимальная ширина*/
@@ -125,17 +127,17 @@ body {
     padding-top: 600px;
 }
 
-.aboutt {
+.about {
     position: absolute;
     padding-top: 450px;
-    width: 1500px;
+    width: 1300px;
     height: 250px;
 }
 
 .bloquote {
     max-width: 1350px;
-    margin: 0px 30px;
-    padding: 25px;
+    margin-left: 100px ;
+    padding: 40px;
     background: #f8fffe;
     border: 0.75px solid #b0d2cb;
     color: #0b4237;
@@ -156,12 +158,13 @@ body {
 }
 
 .contactss {
-    max-width: 20000px;
+    max-width: 1480px;
     color: #ffffff;
     text-transform: uppercase;
     background: black;
     
     margin-left: -58px;
+    margin-right: -10px;
     
     list-style-type: none; /*задает маркер (например, диск, символ или пользовательский стиль счетчика) элемента элемента списка.*/
     display: flex;
@@ -170,6 +173,7 @@ body {
     text-align: center;
 }
 .contactss ul li {
+    margin-top: 15px;
     list-style-type: none;
 }
 .contactss ul li a{
