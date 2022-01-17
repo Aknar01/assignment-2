@@ -1,0 +1,141 @@
+body {
+    background-image: url('bg_student21.jpg'); /*phon*/
+    background-size: cover; /*размер фона*/
+    background-repeat: no-repeat; /*повторность фона*/
+    background-color: rgb(0, 0, 0);/*цвет заднего плана*/
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: blanchedalmond;
+}
+
+.container{
+    width: 1000%; /*ширина*/
+    max-width: 1200px; /*максимальная ширина*/
+    margin: 0 auto; /*отступ по вертикали | по горизонтали */
+}
+
+
+
+.intro_title {
+    font-size: 60px; /*размер шрифта*/
+    font-weight: 700; /*толщина шрифта*/
+    text-transform: uppercase; /*трансформация текста*/
+    color: white;
+    position: relative; /*Элемент позиционируется в соответствии с нормальным потоком документа, а затем смещается относительно самого себя на основе значений сверху, справа, снизу и слева.*/
+    padding-top: 20%; 
+    text-align: center; /*выравнивание текста*/
+ }
+
+.header_menu{
+    display: flex; /*устанавливает внутренний и внешний типы отображения элемента.*/
+    /*при объявлении display: flex, определены в спецификации гибкой блочной модели CSS.*/
+    justify-content: space-between; /*распределяет пространство между элементами контента и вокруг них вдоль основной оси*/
+    align-items: center; /*выравнивание предметов*/
+    border-bottom: 1px solid rgb(255, 255, 255);/*устанавливает нижнюю границу элемента*/
+    padding: 15px; /*область отступа сразу со всех четырех сторон элемента.*/
+
+}
+
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 254, 254);
+    font: optional; /*шрифт*/
+}
+
+
+.galery {
+    position: absolute;
+    padding-top: 50px;
+    width: 1430px;
+    padding-left: 50px;
+   
+}
+.galery a {
+    opacity: 0.9;
+    transition: 0.3s linear;
+}
+.galery a:hover{
+    opacity: 100;
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 10px;
+    border-radius: 12px; /*радиус границ*/
+}
+
+.case {
+    position: absolute;
+    padding-top: 650px;
+    max-width: 20000px;
+}
+.cont_ab {
+    position: absolute;
+    
+    padding-top: 600px;
+}
+
+.aboutt {
+    position: absolute;
+    padding-top: 450px;
+    width: 1300px;
+    height: 250px;
+}
+
+.bloquote {
+    max-width: 17000px;
+    margin: 0px 30px;
+    padding: 25px;
+    background: #f8fffe;
+    border: 1px solid #b0d2cb;
+    color: #0b4237;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.sport {
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    opacity: 0.75;
+
+    transition: color 0.2s linear;
+}
+
+.contactss {
+    max-width: 1450px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: black;
+    
+    margin-left: -58px;
+    margin-right: -10px;
+
+    list-style-type: none; /*задает маркер (например, диск, символ или пользовательский стиль счетчика) элемента элемента списка.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contactss ul li {
+    list-style-type: none;
+}
+.contactss ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s linear;
+    opacity: 0.75;
+}
+.contactss ul li a:hover {
+    color: white;
+    padding-left: 8px;
+    opacity: 100;
+}
+hr {
+    max-width: 200000px;
+}
